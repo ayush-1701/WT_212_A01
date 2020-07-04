@@ -1,0 +1,175 @@
+<style>
+
+
+.Laptop {width:100%; height:0px; padding-bottom:30%; overflow:hidden; position:relative; }
+.Laptop img{ position:absolute; animation:Laptop 20s infinite; opacity:0; width: 100%; height: auto;}
+@keyframes Laptop {25%{opacity:1;} 40%{opacity:0;}}
+.Laptop img:nth-child(1){animation-delay:0s;}
+.Laptop img:nth-child(2){animation-delay:5s;}
+.Laptop img:nth-child(3){animation-delay:10s;}
+.Laptop img:nth-child(4){animation-delay:15s;}
+
+.img1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Navigation bar*/
+element.style {
+}
+.trend-wrap {
+    margin: 5px 5px 0;
+    display: block;
+    font-weight: 600;
+}
+
+.trend-wrap .trend-item {
+    display: inline-block;
+    *display: inline;
+    margin-left: 0px;
+    line-height: 25px;
+}
+
+.trend-wrap .trend-bar {
+    *zoom: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: transparent;
+    position: relative;
+    clear: both;
+    
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    background: #ededed;
+    overflow: hidden;
+}
+.container.full {
+    clear: both;
+    max-width: 100%;
+}
+
+/*Home and content fonts*/
+.hmpg{
+  margin: 35px 140px 50px 140px;
+  font-family: calibri;
+}
+
+.ex2 {
+  margin: 35px 120px 50px 200px;
+  font-family: calibri;
+}
+
+/*Top Nav*/
+.topnav {
+  overflow: auto;
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  padding-left: 120px;
+  font-size: 2vw;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: initial;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+
+}
+
+/*TABLE with Border*/
+table {
+  font-size: 18px;
+  width: 70%;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 2px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/*TABLE withOUT Border*/
+.table1 {
+  font-size: 16px;
+  width: 75%;
+  border-collapse: collapse;
+}
+
+.table1 td, th {
+  border: 0px solid #da2dd5;
+  text-align: left;
+  padding: 8px;
+}
+
+/*Right Box*/
+.rtbox {
+  text-align: left;
+   text-decoration-line: none; color: green;
+   width: 300px;  
+  padding-top:10px;
+  padding-left: 20px;
+  border: 1.5px solid red;
+  margin: -800px 0px 800px 900px;
+}
+
+/*FOOTER*/
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: Black;
+  text-decoration-color: none;
+  color: white;
+}
+
+
+/*CONTACT BUTTON*/
+.btn {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 40px 715px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.btn1 {
+  background-color: white;
+  color: black;
+  border: 3px solid purple;
+}
+
+.btn1:hover {
+  background-color: purple;
+  color: white;
+}
+
+</style>
